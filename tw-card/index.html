@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-screen flex justify-center items-center">
+    <div class="flex w-[45%] border">
+        <div class="w-1/2">
+            <img src="./images/Tshirt-unsplash.jpg" alt="">
+        </div>
+        <div class="w-1/2 mt-30 pe-5">
+            <div class="flex justify-between">
+                <h3 class="font-bold text-xl mb-3">Product name</h3>
+                <span class="text-gray-500 font-bold">$110.00</span>
+            </div>
+            <span class="text-gray-500">In stock</span>
+            <div class="flex justify-between">
+                <div class="w-3/5">
+                    <div class="flex justify-evenly mt-10">
+                        <input type="radio" name="size">
+                        <input type="radio" name="size">
+                        <input type="radio" name="size">
+                        <input type="radio" name="size">
+                        <input type="radio" name="size">
+                    </div>
+                    <div class="flex justify-evenly">
+                       <span>XS</span>
+                       <span>S</span>
+                       <span>M</span>
+                       <span>L</span>
+                       <span>XL</span>
+                    </div>
+                </div>
+                <div class="flex items-end">
+                    <a class="underline decoration-1 text-gray-500" href="#">Size Guide</a>
+                </div>
+            </div>
+            <button class="text-white bg-blue-600 w-full p-3 rounded-md my-5">Buy now</button>
+            <span class="text-gray-500">Free shipping on all continental US orders.</span>
+        </div>
+    </div>
+</body>
+</html>

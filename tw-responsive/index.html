@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-screen">
+    <h1 class="text-center sm:text-4xl text-xl">Responsive Design</h1>
+    <div class="flex justify-center items-center min-h-100 ">
+        <div class="border border-[5px] w-3/4 bg-purple-800 h-1/2 grid sm:grid-cols-3 gap-4 p-3">
+            <div class="h-[150px] bg-purple-300 border border-white text-center">One</div>
+            <div class="h-[150px] bg-purple-300 border border-white text-center">Two</div>
+            <div class="h-[150px] bg-purple-300 border border-white text-center">Three</div>
+        </div>
+    </div>
+    <div class="flex justify-center items-center min-h-100 mt-5">
+        <div class="border border-[5px] w-3/4 bg-purple-800 h-1/2 grid sm:grid-cols-12 gap-4 p-3">
+            <div class="h-[150px] bg-purple-300 border border-white text-center sm:col-span-2 transition-all duration-700 ease-in-out hover:scale-96">One</div>
+            <div class="h-[150px] bg-purple-300 border border-white text-center sm:col-span-5 transition-all duration-700 ease-in-out hover:scale-96">Two</div>
+            <div class="h-[150px] bg-purple-300 border border-white text-center sm:col-span-5 transition-all duration-700 ease-in-out hover:scale-96">Three</div>
+        </div>
+    </div>
+    <div class="flex justify-center items-center min-h-100 mt-5">
+        <div class="border border-[5px] w-3/4 bg-purple-800 h-[300px] grid sm:grid-cols-12 gap-4 p-3">
+            <div class="bg-purple-300 border border-white text-center sm:col-span-4 sm:row-span-3">One</div>
+            <div class="bg-purple-300 border border-white text-center sm:col-span-8 sm:row-span-1">Two</div>
+            <div class="bg-purple-300 border border-white text-center sm:col-span-4 sm:row-span-2">Three</div>
+            <div class="bg-purple-300 border border-white text-center sm:col-span-4 sm:row-span-2">Four</div>
+        </div>
+    </div>
+</body>
+</html>
